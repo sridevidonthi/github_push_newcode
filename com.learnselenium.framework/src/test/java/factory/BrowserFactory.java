@@ -28,6 +28,7 @@ public class BrowserFactory {
 		}
 
 		driver.manage().window().maximize();
+		System.out.println("Hello Welcome to Selenium");
 
 		driver.get(url);
 
